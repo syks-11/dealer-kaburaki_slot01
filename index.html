@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ディーラー鏑木用スロット</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sancreek&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/function.js"></script>
+</head>
+
+<body>
+    <div class="bodyWrapper">
+        <div class="slot">
+            <div id="lever"></div>
+            <div class="reelWrapper">
+                <div class="reel" id="reel01">
+                    <div class="reelInner">
+                        <p class='num'><span>?</span></p>
+                    </div>
+                </div>
+                <div class="reel" id="reel02">
+                    <div class="reelInner">
+                        <p class='num'><span>?</span></p>
+                    </div>
+                </div>
+                <div class="reel" id="reel03">
+                    <div class="reelInner">
+                        <p class='num'><span>?</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="textWrapper">
+                <p class="text">WHEN</p>
+                <p class="text">WHERE</p>
+                <p class="text">WHAT</p>
+            </div>
+            <div class="btnWrapper">
+                <button class="slotButton spin disabled" id="spinButton">BET</button>
+                <button class="slotButton reset disabled" id="resetButton">RESET</button>
+            </div>
+        </div>
+
+        <div class="settingArea">
+            <div class="inputArea">
+                <div class="col">
+                    <p class="inputTitle">SLOT 01</p>
+                    <textarea rows="5" id="numberInput01"></textarea>
+                </div>
+                <div class="col">
+                    <p class="inputTitle">SLOT 02</p>
+                    <textarea rows="5" id="numberInput02"></textarea>
+                </div>
+                <div class="col">
+                    <p class="inputTitle">SLOT 03</p>
+                    <textarea rows="5" id="numberInput03"></textarea>
+                </div>
+            </div>
+            <div class="settingButtonArea">
+                <button id="addButton">ADD</button>
+                <button id="deleteButton">DELETE</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
